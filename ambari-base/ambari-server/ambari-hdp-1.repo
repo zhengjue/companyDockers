@@ -1,0 +1,14 @@
+[HDP-2.6-repo-1]
+name=HDP-2.6-repo-1
+baseurl=http://bigdata16/ambari/HDP/centos7/2.6.3.0-235
+
+path=/
+enabled=1
+gpgcheck=0
+[HDP-UTILS-1.1.0.21-repo-1]
+name=HDP-UTILS-1.1.0.21-repo-1
+baseurl=http://bigdata16/ambari/HDP-UTILS
+
+path=/
+enabled=1
+gpgcheck=0
