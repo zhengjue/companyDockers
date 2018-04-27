@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configuration>
+<!--NameNode的地址-->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://hadoop-master:9000/</value>
+    </property>
+<!--HDFS数据保存的目录，默认是Linux的tmp目录-->
+<property>
+  <name>hadoop.tmp.dir</name>
+  <value>/var/lib/hdfs/tmp</value>
+</property>
+</configuration>
