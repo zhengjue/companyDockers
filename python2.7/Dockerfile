@@ -9,6 +9,7 @@ RUN apt-get update \
                        python-dev \
                        python-pip \
                        ipython \
+                       libmysqlclient-dev \
 	&& python -m pip install --upgrade pip  \
 	&& pip install -r requirements.txt \
   	&& apt-get clean \
