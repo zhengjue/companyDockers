@@ -1,3 +1,6 @@
 Flask==0.12.2
+<<<<<<< HEAD
 Django==1.11.12
 MySQL-python==1.2.5
+=======
+>>>>>>> 5fff64b8113ac31e15c541858299f7ca30f71ba4

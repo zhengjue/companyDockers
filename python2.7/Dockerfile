@@ -8,8 +8,11 @@ RUN apt-get update \
 	&&  apt-get install -y python \
                        python-dev \
                        python-pip \
+<<<<<<< HEAD
                        ipython \
                        libmysqlclient-dev \
+=======
+>>>>>>> 5fff64b8113ac31e15c541858299f7ca30f71ba4
 	&& python -m pip install --upgrade pip  \
 	&& pip install -r requirements.txt \
   	&& apt-get clean \
